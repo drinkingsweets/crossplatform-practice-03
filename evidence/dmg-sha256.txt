@@ -1,0 +1,1 @@
+c3344f283303e87ae8b63dd0d7c2e16ddf75467b11c20909564359980beda755  electron-file-explorer-1.0.0-mac-arm64.dmg

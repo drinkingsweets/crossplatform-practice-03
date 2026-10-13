@@ -1,0 +1,14 @@
+Проверка окружения — 13.10.2026
+
+$ node --version
+v24.21.0
+
+$ npm --version
+11.19.0
+
+$ git --version
+git version 2.39.5 (Apple Git-154)
+
+$ git log --oneline
+b3faddd Инициализация Electron и безопасного просмотра каталога
+

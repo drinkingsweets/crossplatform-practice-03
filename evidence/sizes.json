@@ -1,0 +1,9 @@
+{
+  "platform": "macOS ARM64",
+  "dmg_bytes": 127908358,
+  "dmg_mib": 121.98,
+  "app_logical_bytes": 301184364,
+  "native_hello_bytes": 33432,
+  "native_compiler": "Apple clang, -Os",
+  "comparison_limit": "Console hello world and GUI explorer are not functionally equivalent."
+}

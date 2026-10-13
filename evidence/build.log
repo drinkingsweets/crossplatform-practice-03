@@ -1,0 +1,21 @@
+
+> electron-file-explorer@1.0.0 dist
+> electron-builder
+
+  • electron-builder  version=26.15.3 os=24.6.0
+  • loaded configuration  file=package.json ("build" field)
+  • executing @electron/rebuild  electronVersion=44.7.0 arch=arm64 buildFromSource=false workspaceRoot=/Users/mvl/Documents/Codex/2026-09-09/new-chat/outputs/crossplatform-practice-03 projectDir=./ appDir=./
+  • installing native dependencies  arch=arm64
+  • completed installing native dependencies
+  • packaging       platform=darwin arch=arm64 electron=44.7.0 appOutDir=dist/mac-arm64
+  • downloaded      label=electron progress=100%
+  • downloaded electron zip extracted successfully  output=/Users/mvl/Documents/Codex/2026-09-09/new-chat/outputs/crossplatform-practice-03/dist/mac-arm64
+  • searching for node modules  pm=npm searchDir=/Users/mvl/Documents/Codex/2026-09-09/new-chat/outputs/crossplatform-practice-03
+  • searching for node modules  pm=traversal searchDir=/Users/mvl/Documents/Codex/2026-09-09/new-chat/outputs/crossplatform-practice-03
+  • using manual traversal of node_modules to build dependency tree
+  • no node modules returned while searching directories  searchDirectories=[""]
+  • default Electron icon is used  reason=application icon is not set
+  • skipped macOS code signing  reason=identity explicitly is set to null
+  • building        target=DMG arch=arm64 file=dist/electron-file-explorer-1.0.0-mac-arm64.dmg
+  • downloaded      label=dmgbuild-bundle-arm64-75c8a6c.tar.gz progress=100%
+  • building block map  blockMapFile=dist/electron-file-explorer-1.0.0-mac-arm64.dmg.blockmap

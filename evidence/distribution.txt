@@ -1,0 +1,15 @@
+Результат сборки — 13.10.2026
+
+$ ls -lh dist
+total 255752
+-rw-r--r--@ 1 mvl  staff   1.0K Oct 13 14:05 builder-debug.yml
+-rw-r--r--@ 1 mvl  staff   122M Oct 13 14:05 electron-file-explorer-1.0.0-mac-arm64.dmg
+-rw-r--r--@ 1 mvl  staff   131K Oct 13 14:05 electron-file-explorer-1.0.0-mac-arm64.dmg.blockmap
+-rw-r--r--@ 1 mvl  staff   381B Oct 13 14:05 latest-mac.yml
+drwxr-xr-x@ 3 mvl  staff    96B Oct 13 14:05 mac-arm64
+
+Точные размеры файлов (байт):
+builder-debug.yml: 1017
+electron-file-explorer-1.0.0-mac-arm64.dmg: 127908358
+electron-file-explorer-1.0.0-mac-arm64.dmg.blockmap: 134116
+latest-mac.yml: 381

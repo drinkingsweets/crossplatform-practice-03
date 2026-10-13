@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Electron File Explorer — Вариант 8</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="renderer.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">ПРАКТИЧЕСКАЯ РАБОТА 03 · ВАРИАНТ 8</div>
+    <h1>Просмотр каталога</h1>
+    <p>Власенко Марк Евгеньевич <span>ТРПО23-3</span></p>
+  </header>
+  <main>
+    <div class="toolbar">
+      <div><h2>Рабочий каталог</h2><p>Файлы и папки приложения</p></div>
+      <button id="list-button">Показать содержимое каталога</button>
+    </div>
+    <p id="message" role="status">Нажмите кнопку, чтобы загрузить список.</p>
+    <ul id="entries" aria-label="Содержимое каталога"></ul>
+  </main>
+  <footer><span class="status-dot" aria-hidden="true"></span><span id="versions" role="status">Получение версий компонентов…</span></footer>
+</body>
+</html>
